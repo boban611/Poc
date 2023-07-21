@@ -1,10 +1,8 @@
 const socket = new WebSocket('ws://localhost:3000');
 
-// Grid dimensions
 const rows = 5;
 const cols = 8;
 
-// Store the current grid mapping
 let gridMapping = {};
 
 // Create the grid
